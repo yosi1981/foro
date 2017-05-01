@@ -1,0 +1,1 @@
+<textarea title="{{ $setting->display_name }}" name="{{ $setting->name }}" id="{{ $setting->name }}" class="form-control">{{ old($setting->value, $setting->value) }}</textarea>

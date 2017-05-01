@@ -1,0 +1,1 @@
+<img height="30" src="{{ $thread->icon() }}" alt="Icon">

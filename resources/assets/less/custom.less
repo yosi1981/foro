@@ -1,0 +1,88 @@
+
+.bold {
+  font-weight: bold;
+}
+
+.text-normal {
+  font-weight: normal !important;
+}
+
+.font-normal {
+  font-size: inherit !important;;
+}
+
+
+.reply-form td a {
+  color: #428bca;
+}
+
+.box-flat {
+  border-top: 0 !important;
+}
+
+// Table font size is too big so...
+table {
+  font-size: inherit;
+}
+
+// Used in admin panel (while listing all users) to vertical align the text to match with avatar
+.table.vertical-align > tbody > tr > td {
+  vertical-align: middle;
+}
+
+// Used in pagination
+.margin-0 > .pagination {
+  margin: 0 !important;
+}
+
+// Used while parsing BBCode
+blockquote {
+  padding: 5px 20px 5px 20px !important;
+  margin: 0 !important;
+  font-size: inherit !important;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.info-box-icon > i {
+  line-height: 90px !important;
+}
+
+// The dropdown menu button is not "sexy"... so gotta make it that way...
+.dropdown-menu>li>form>button  {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  color: #777;
+  border: none;
+  background: transparent none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-menu>li>form{
+  margin: 0 !important;
+}
+
+.dropdown-menu > li >form> button:hover {
+  background-color: #e1e3e9;
+  color: #333;
+}
+
+// Custom background color for the callout
+.callout.callout-warning {
+  background-color: #e08e0b !important;
+}
+
+// Custom modal-sm width because the normal one is too small
+@media (min-width: 768px) {
+  .modal-sm {
+    width: 400px !important;
+  }
+}
